@@ -12,7 +12,7 @@ type AppDelegate () =
 
     override this.FinishedLaunching (app, options) =
         Forms.Init()
-        this.LoadApplication (new fsharpxamlformsapp.App())
+        this.LoadApplication (new fsharp_xaml_forms_app.App())
         base.FinishedLaunching(app, options)
 
 module Main =

@@ -17,5 +17,5 @@ type MainActivity() =
 
         Xamarin.Forms.Forms.Init (this, bundle)
 
-        this.LoadApplication (new fsharpxamlformsapp.App ())
+        this.LoadApplication (new fsharp_xaml_forms_app.App ())
 
